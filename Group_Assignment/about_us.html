@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <style>
     body{
@@ -45,6 +50,20 @@ h1{
 h4{
     text-decoration:rgb(36, 7, 131) ;  
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("images/desk.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 </style>
 <title>About Us</title>
 </head>
@@ -62,37 +81,103 @@ h4{
     </ul>  
 </nav>
 
-<img src="Images/desk.jpg" style="display: block; margin: auto; width: 100%;">
+<!-- <img src="Images/desk.jpg" style="display: block; margin: auto; width: 100%;"> -->
+
+<div class="parallax"></div>
 
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+        <h2>Who We Are</h2>
+        <img src="Images/who.png" style="display: block; width: 10%;" > 
+            <p>INFOServ is an IT Consulting & Support <br/>Services company. We help our clients<br/> achieve their business objectives by <br/>leveraging their IT resources to provide <br/>them with stable, secure and productive<br/> computing environments.</p>
+        </div>
 
-<div class="column">
-    <h2>Who We Are</h2>
-    <img src="Images/who.png" style="display: block; width: 7%;" > 
-        <p>INFOServ is an IT Consulting & Support <br/>Services company. We help our clients<br/> achieve their business objectives by <br/>leveraging their IT resources to provide <br/>them with stable, secure and productive<br/> computing environments.</p>
-</div>
-
-<div class="column">
-    <h2>Our Vision</h2>
-    <img src="Images/eye.png" style="display: block; width: 7%;" > 
-        <p>Help achieve greatness by delivering <br/>incredibly good IT services.</p> 
-</div>
+        <div class="col">
+        <h2>Our Vision</h2>
+        <img src="Images/eye.png" style="display: block; width: 10%;" > 
+            <p>Help achieve greatness by delivering <br/>incredibly good IT services.</p> 
+        </div>
     
-<div>
-    <h2>Our Mission</h2>
-    <img src="Images/mission.jpg" style="display: block; width: 7%;" > 
-        <p>INFOServ is a Jamaican company that <br/>delivers world-class IT services through <br/>empowered and engaged team members <br/>who provide an incredibly good customer <br/>experience. We provide a positive and <br/>honest environment which embraces change.<br/> INFOServ will impact the markets in which<br/> we operate by consistently raising the bar for<br/> the industry through continuous improvement<br/> and innovation.</p>
+        <div class="col">
+        <h2>Our Mission</h2>
+        <img src="Images/mission.jpg" style="display: block; width: 10%;" > 
+            <p>INFOServ is a Jamaican company that <br/>delivers world-class IT services through <br/>empowered and engaged team members <br/>who provide an incredibly good customer <br/>experience. We provide a positive and <br/>honest environment which embraces change.<br/> INFOServ will impact the markets in which<br/> we operate by consistently raising the bar for<br/> the industry through continuous improvement<br/> and innovation.</p>
+        </div>
+    </div>
 </div>
-<br/>
-<br/>
-    <h2>Meet The Team</h2>
 
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Meet The Team</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 28rem;">
+                <img src="Images/davevon.jpeg" class="card-img-top" style="width: 15rem;" alt="...">
+            </div>
+            <a data-toggle="collapse" href="#davevon" role="button" aria-expanded="false" aria-controls="collapseExample"><h3>Davevon Craddock </h3></a>
+            <div class="collapse" id="davevon">
+                <div class="card card-body">
+                    <p class="card-text">Davevon Craddock CEO ....</p>
+                    <a href="#" class="btn btn-primary">Read more...</a>
+                </div>
+            </div>
+              
+        </div>
+
+  
+        <div class="col">
+            <div class="card" style="width: 28rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tyrone Cooper </h5>
+                  <p class="card-text">Tyrone Cooper Cheif Accountant ....</p>
+                  <a href="#" class="btn btn-primary">Read more...</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Melissa Rainford</h5>
+                  <p class="card-text">Melissa Rainford  ....</p>
+                  <a href="#" class="btn btn-primary">Read more...</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rolan Robinson</h5>
+                  <p class="card-text">Rolan Robinson  ....</p>
+                  <a href="#" class="btn btn-primary">Read more...</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    
+    
+    
+</div>
     <h2>Our Story</h2>
         <p>The brainchild of several experts in the areas of server management, network management, IT security, applications development and support, Info Serve was founded by Rolan Robinson, a former Director of The National Environment and Planning Agency (NEPA), in collaboration with other senior IT professionals.</p>
     
-</body>
+
 <div id="footer">
     <p> © Copyright InfoServ </p>
-    </div>
-
+</div>
+</body>
 </html>
