@@ -13,14 +13,7 @@ body{
   -webkit-background-size:cover;
   height: 100vh
 }
-h1{
-  text-align: center;
-  text-decoration:rgb(36, 7, 131) ;
-  text-align: center;
-  background-color:rgb(223, 221, 221);
-  border-radius: 10px;
-  padding: 15px;
-}
+
 header{
   padding: 15px 60px;
 
