@@ -1,4 +1,4 @@
-h2{
+h1{
     color:rgb(36, 7, 131) ;
     text-align: center;
     background-color:rgb(143, 142, 142);
@@ -28,7 +28,7 @@ h2{
       width: 50%;
       margin-left: 25%;
   }
-  #banner-info h1{
+  #banner-info h2{
       font-size: 200%;
   }
 
