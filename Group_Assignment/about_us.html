@@ -35,7 +35,9 @@ h1{
     padding: 10px;
 }
 
-#about_p_tag { color: rgb(143, 142, 142); 
+#about_p_tag { 
+    color: rgb(109, 107, 107); 
+    text-align: center;
 }
 
 .card-text{ color:rgb(143, 142, 142);
@@ -44,6 +46,8 @@ h1{
 #card_h3 { 
     color: rgb(36, 7, 131);
     font-size: 1.5rem;
+    text-align: center;
+
 }
 
 #card_p { 
@@ -58,9 +62,28 @@ h1{
 
 .card-img-top { 
     width: 200px;
+
 }
 
-#first_col_sec { color: (109, 107, 107);}
+#first_col_sec { 
+    color: rgb(36, 7, 131);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#second_col_sec { 
+    color: rgb(36, 7, 131);
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_pic { 
+    display: block; 
+    width: 10%;
+}
+
+.about_container { align-items: center;}
 
 /* .container_card { background-color: rgb(187, 184, 184);} */
 
@@ -113,36 +136,39 @@ h1{
     
 
     <!-- content  -->
-        <div class="container">
+        <div class="about_container">
             <div class="row">
                 <div class="col">
                 <h2 id="first_col_sec">Who We Are</h2>
-                <img src="Images/who.png" style="display: block; width: 10%;" > 
+                <img src="Images/who.png" class="container_pic"> 
                     <p id="about_p_tag">INFOServ is an IT Consulting & Support <br/>Services company. We help our clients<br/> achieve their business objectives by <br/>leveraging their IT resources to provide <br/>them with stable, secure and productive<br/> computing environments.</p>
                 </div>
 
                 <div class="col">
-                <h2>Our Vision</h2>
-                <img src="Images/eye.png" style="display: block; width: 10%;" > 
+                <h2 id="first_col_sec">Our Vision</h2>
+                <img src="Images/eye.png" class="container_pic"> 
                     <p id="about_p_tag">Help achieve greatness by delivering <br/>incredibly good IT services.</p> 
                 </div>
             
                 <div class="col">
-                <h2>Our Mission</h2>
-                <img src="Images/mission.jpg" style="display: block; width: 10%;" > 
+                <h2 id="first_col_sec">Our Mission</h2>
+                <img src="Images/mission.jpg" class="container_pic"> 
                     <p id="about_p_tag">INFOServ is a Jamaican company that <br/>delivers world-class IT services through <br/>empowered and engaged team members <br/>who provide an incredibly good customer <br/>experience. We provide a positive and <br/>honest environment which embraces change.<br/> INFOServ will impact the markets in which<br/> we operate by consistently raising the bar for<br/> the industry through continuous improvement<br/> and innovation.</p>
                 </div>
             </div>
         </div>
-
+        <br/>
+        <br/>
+        <br/>
 <!-- Team Members  -->
         <div class="container_card">
             <div class="row">
                 <div class="col">
-                    <h2>Meet The Team</h2>
+                    <h2 id="second_col_sec">Meet The Team</h2>
                 </div>
             </div>
-            
+            <br/> 
+            <br/>
             <div class="row">
                 <div class="col">
                     <div class="card">
@@ -225,7 +251,9 @@ h1{
                 
         </div>
         <!-- End Team Members  -->
-    
+    <br/>
+    <br/>
+    <br/>
             <h2>Our Story</h2>
                 <p>
                     Established in September 10th 2017, Info Serv set out on a mission to help small and medium-sized businesses understand and make efficient use of their Information Technology (IT) resources.  Since then we’ve assisted numerous local and regional businesses achieve their objectives by leveraging their IT resources to provide them with stable, secure and productive computing environments.
