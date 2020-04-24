@@ -183,4 +183,76 @@ margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* About us Style Sheet */
 
+#about_p_tag { 
+    color: rgb(109, 107, 107); 
+    text-align: center;
+}
+
+.card-text{ color:rgb(109, 107, 107);
+}
+
+#card_h3 { 
+    color: rgb(36, 7, 131);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#about_h2 { 
+    color: rgb(36, 7, 131);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#card_p { 
+    color: rgb(109, 107, 107);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;  
+}
+
+.card { width: 200px;
+}
+
+.card-img-top { 
+    width: 200px;
+    
+
+}
+
+#first_col_sec { 
+    color: rgb(36, 7, 131);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#second_col_sec { 
+    color: rgb(36, 7, 131);
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_pic { 
+    display: block; 
+    width: 10%;
+    margin: auto;
+}
+
+.about_container { align-items: center;}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/desk.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
