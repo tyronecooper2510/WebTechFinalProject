@@ -28,7 +28,7 @@ h1{
 }
 #nav ul{
     text-align: center;
-    text-decoration:rgb(36, 7, 131) ;
+    text-decoration:rgb(36, 7, 131);
     padding: 20px;
 }
 #nav ul a{
@@ -47,12 +47,22 @@ h1{
 }
 
 #card_p { 
-    color: rgb(143, 142, 142);
+    color: rgb(109, 107, 107);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    text-align: center;
-    
+    text-align: center;  
 }
+
+.card { width: 200px;
+}
+
+.card-img-top { 
+    width: 200px;
+}
+
+#first_col_sec { color: (109, 107, 107);}
+
+/* .container_card { background-color: rgb(187, 184, 184);} */
 
 /* #content img{
      width: 90%;
@@ -106,7 +116,7 @@ h1{
         <div class="container">
             <div class="row">
                 <div class="col">
-                <h2>Who We Are</h2>
+                <h2 id="first_col_sec">Who We Are</h2>
                 <img src="Images/who.png" style="display: block; width: 10%;" > 
                     <p id="about_p_tag">INFOServ is an IT Consulting & Support <br/>Services company. We help our clients<br/> achieve their business objectives by <br/>leveraging their IT resources to provide <br/>them with stable, secure and productive<br/> computing environments.</p>
                 </div>
@@ -125,8 +135,8 @@ h1{
             </div>
         </div>
 
-
-        <div class="container">
+<!-- Team Members  -->
+        <div class="container_card">
             <div class="row">
                 <div class="col">
                     <h2>Meet The Team</h2>
@@ -135,13 +145,15 @@ h1{
             
             <div class="row">
                 <div class="col">
-                    <div class="card" style="width: 200px;">
-                        <img src="Images/davevon3.jpeg" class="card-img-top" style="width: 200px;" alt="...">
+                    <div class="card">
+                        <img src="Images/davevon3.jpeg" class="card-img-top">
                     </div>
-                    <a data-toggle="collapse" href="#davevon" role="button" aria-expanded="false" aria-controls="collapseExample"><h3>Davevon Craddock </h3></a>
+
+                    <p id="card_p">Davevon Craddock</p>
+                    <a data-toggle="collapse" href="#davevon" role="button" aria-expanded="false" aria-controls="collapseExample"><h3 id="card_h3">Lead Technician </h3></a>
                     <div class="collapse" id="davevon">
                         <div class="card card-body">
-                            <p class="card-text"> Lead Technician <br/> Davevon has been with Info Serv from inception and has proved himself to be an invaluable asset to the company. He brings with him years of experience and skill in computer maintenance and repair. Davevon’s interest in computers began at a young age, when his laptop malfunctioned and he single-handedly repaired it.
+                            <p class="card-text">Davevon has been with Info Serv from inception and has proved himself to be an invaluable asset to the company. He brings with him years of experience and skill in computer maintenance and repair. Davevon’s interest in computers began at a young age, when his laptop malfunctioned and he single-handedly repaired it.
 
                                 As the Lead I.T. Technician, Davevon has responsibility for maintaining, diagnosing and repairing hardware and software issues for our clients.
                                 
@@ -153,15 +165,14 @@ h1{
                 </div>
 
                 <div class="col">
-                    <div class="card" style="width: 200px;">
-                        <img src="Images/mel3.jpg" class="card-img-top" style="width: 200px;" alt="...">
+                    <div class="card">
+                        <img src="Images/mel3.jpg" class="card-img-top">
                         
                     </div>
 
-                    <p id="card_p"> Melissa Rainford</p>
+                    <p id="card_p"> Melissa Rainford</p>                    
 
                     <a data-toggle="collapse" href="#melissa" role="button" aria-expanded="false" aria-controls="collapseExample"><h3 id="card_h3">Business Development Officer</h3></a>
-                    
                     <div class="collapse" id="melissa">
                         <div class="card card-body">
                             <p class="card-text">Melissa interned at Info Serv for two years before officially joining the team in 2019, as the Business Development Officer. During her short tenure, she has worked diligently to seek out and identify potential product line expansion opportunities and spearheaded the company’s rebranding efforts. She also has responsibility for monitoring and managing company expenditures, with the ultimate goal of maximizing revenues.
@@ -174,13 +185,15 @@ h1{
                 </div>
 
                 <div class="col">
-                    <div class="card" style="width: 200px;">
-                        <img src="Images/cooper.jpeg" class="card-img-top" style="width: 200px;" alt="...">
+                    <div class="card">
+                        <img src="Images/cooper.jpeg" class="card-img-top">
                     </div>
-                    <a data-toggle="collapse" href="#tyrone" role="button" aria-expanded="false" aria-controls="collapseExample"><h3>Tyrone Cooper </h3></a>
+
+                    <p id="card_p">Tyrone Cooper</p>
+                    <a data-toggle="collapse" href="#tyrone" role="button" aria-expanded="false" aria-controls="collapseExample"><h3 id="card_h3">President</h3></a>
                     <div class="collapse" id="tyrone">
                         <div class="card card-body">
-                            <p class="card-text">President <br/> Tyrone has been Info Serv's President for 11 years. He holds a PhD in Management from Harvard University. He is an author of a number of academic and business papers on IT outsourcing, online services procurement and online IT marketplaces. </p>
+                            <p class="card-text">Tyrone has been Info Serv's President for 11 years. He holds a PhD in Management from Harvard University. He is an author of a number of academic and business papers on IT outsourcing, online services procurement and online IT marketplaces. </p>
                             <!-- <a href="#" class="btn btn-primary">Read more...</a> -->
                         </div>
                     </div>
@@ -189,12 +202,14 @@ h1{
 
                 <div class="col">
                     <div class="card" style="width: 200px;">
-                        <img src="Images/rolan.jpeg" class="card-img-top" style="width: 200px;" alt="...">
+                        <img src="Images/rolan.jpeg" class="card-img-top">
                     </div>
-                    <a data-toggle="collapse" href="#rolan" role="button" aria-expanded="false" aria-controls="collapseExample"><h3>Rolan Robinson</h3></a>
+
+                    <p id="card_p">Rolan Robinson</p>
+                    <a data-toggle="collapse" href="#rolan" role="button" aria-expanded="false" aria-controls="collapseExample"><h3 id="card_h3">Founder/Lead IT Consultant</h3></a>
                     <div class="collapse" id="rolan">
                         <div class="card card-body">
-                            <p class="card-text"> Founder/Lead IT Consultant <br/> For as long as he can remember, Rolan has always been enthusiastic about technology and its ability to make the world more efficient. This enthusiasm prompted him to take the leap of faith into entrepreneurial waters and formally launch Info Serv.
+                            <p class="card-text">For as long as he can remember, Rolan has always been enthusiastic about technology and its ability to make the world more efficient. This enthusiasm prompted him to take the leap of faith into entrepreneurial waters and formally launch Info Serv.
 
                                 His specialties include Network Security, Network Administration, System Administration, Firewall Management, IT Strategy, Wi-Fi Management, among many others.
                                 
@@ -209,6 +224,7 @@ h1{
 
                 
         </div>
+        <!-- End Team Members  -->
     
             <h2>Our Story</h2>
                 <p>
