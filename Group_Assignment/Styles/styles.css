@@ -1,10 +1,19 @@
 
 h1{
   color:rgb(36, 7, 131) ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
   text-align: center;
   background-color:rgb(143, 142, 142);
   border-radius:10px ;
   padding: 20px; 
+  /* new */
+  font-weight: bold;
+  margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* end new */
   }
     #nav{
       background-color: rgb(223, 221, 221);
@@ -14,7 +23,8 @@ h1{
       text-align: center;
       text-decoration:rgb(36, 7, 131) ;
       padding: 20px;
-  }#nav ul a{
+  }
+  #nav ul a{
       padding: 10px;
   }
 
@@ -23,8 +33,9 @@ h1{
       position:absolute;
       top:30%;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 130%;
-      color:black;
+      font-size: 300%;
+      /* font-weight: bold; */
+      color: black;
       text-align: center;
       width: 50%;
       margin-left: 25%;
@@ -244,8 +255,9 @@ margin: 0 auto;
 
 .story_pic {
     display: block; 
-    width: 8%;
+    width: 6%;
     margin: auto;
+    align-items: center;
 }
 
 .about_container { align-items: center;}
